@@ -22,3 +22,5 @@ export function wordCount(text) {
 if (typeof text !== "string") return 0;
 return text.trim().split(/\s+/).length;
 }
+
+export { add, isEven, factorial, findMax, wordCount };
